@@ -1,0 +1,348 @@
+body {
+    background-image: url("C:/Users/UCIT COMPUTERS/Desktop/blockfuseWebsite/IMAGES/blockchain.png") ;
+    background-position: right top;
+    background-repeat: no-repeat;
+    background-size: 55%;
+    font-family: Bookman Old Style;
+    }
+
+
+.firstContainer {
+    width: 100%;
+    height: 630px;
+    }
+
+/* Here is for the Nav Bars Section (Home, ) */
+#navbar {
+    background-color: white;
+    opacity: 0.9;
+    width: 80%;
+    height: 50px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+#navbar:hover {
+    background-color: #BF64E7;
+    }
+
+.one {
+    margin-top: 12px;
+    }
+
+.box-holder {
+    margin-left: 60px;
+    }
+
+.box-one {
+    background-color: #6E4ACF;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #BF64E7, #6E4ACF);
+    box-shadow: 1px 1px 2px grey;
+    }
+
+.box-two {
+    background-image: linear-gradient(to right, #BF64E7, #6E4ACF);
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    margin-top: -15px;
+    margin-left: 8px;
+    box-shadow: 1px 1px 2px 1px grey;    
+    }
+
+.nav-seperation {
+    width: 33%;
+    float: left;
+    height: 50px;
+    margin-left: 2px;
+    /* background-color: #000000; */
+    }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 15px;
+    }
+
+li {
+    /* float: left; */
+    display: inline-block;
+    margin-left: 8px;
+    }
+
+li a {
+    display: block;
+    text-decoration: none;
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+  .three {
+    margin-top: 16px;
+    }
+
+.nav-community-button {
+    margin-top: 10px;
+    margin: 80px;
+    }
+/* Ending for Top Nav Bar Section */
+
+
+#unlock-future-holding {
+    padding-left: 10%;
+    font-family: roboto slap;
+    }
+
+.unlock-future {
+    margin-top: 205px;
+    font-size: 60px;
+    }
+
+.lorem {
+    margin-top: -30px;
+    margin-bottom: 30px;
+    font-size: larger;
+    }
+
+.community-link-button {
+    background-color:#6E4ACF;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+    padding: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-radius: 5px;
+}
+
+/* Here is the styling for Our Story Section */
+#our-story {
+    background-color:#D1C1FF33;
+    width: 100%;
+    height: 700px; 
+    padding-top: 10px;  
+    }
+
+.story-text {
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+.our-story-image {
+    display: block;
+    width: 80% ;
+    /* width: 1159.79px; */
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    }
+/* Ending for Our Story Section */
+
+
+/* Here is the styling for What you will learn section */
+#courses {
+    height: 320px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    }
+
+.what-you-will-learn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    }
+
+table{
+    border: 0px;
+    width: 100%;
+    margin: auto auto;
+    }
+
+.td {
+    border: 1px solid #007FFF30;
+    width: 28%;
+    height: 23px;
+    border-radius: 8px;
+    padding: 12px;
+    text-align: center;
+    /* float: left; */
+    margin: 12px 12px;
+    display: inline-block;
+    }
+
+tr {
+    margin: auto;
+
+    }
+
+/* END POINT FOR COURSES OUTLINE */
+
+/* STARTING POINT OF TESTIMONIALS */
+#testimonials {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+    background-color: #D1C1FF33;
+    padding-top: 12px;
+    }
+
+.testimonials-text-heading {
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 10px;
+    }
+
+.testimonials-sub-heading {
+    font-size: 33px;
+    }
+
+.testimonials-comment {
+    font-size: 16px;
+    width: 65%;
+    margin: auto;
+    height: 120px;
+    color: grey;
+    }
+
+.testimonials-comment-image {
+    width: 171px;
+    height: 148px;
+    margin: auto;
+    color: grey;
+    }
+
+.testimonials-image {
+    width: 94px;
+    height: 94px;
+    border-radius: 100%;
+    }
+/* END FOR TESTIMONIALS */
+
+/* STARTING FOR FAQ'S */
+#faqs {
+    width: 100%;
+    height: 550px;
+    padding-top: 40px;
+    }
+
+.faqs-heading {
+    text-align: center;
+    }
+
+.faqs-dropdown-contents {
+    width: 70%;
+    height: 300px;
+    /* background-color: black; */
+    margin: auto;
+    margin-top: 30px;
+    /* box-shadow: 1px 1px 2px 1px #BF64E7; */
+    }
+
+.dropdown-content {
+    width: 100%;
+    font-size: 20px;
+    font-family: bookman old style;
+    /* background-color: white; */
+    /* border: 2px solid #BF64E7; */
+    border-bottom: 2px solid #6C48CD;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    }
+/* END FOR FAQ'S */
+
+/* INFO SECTION STYLING */
+#info {
+    width: 100%;
+    height: 180px;
+    /* background-color: grey; */
+    }
+
+.info-card-holder {
+    width: 80%;
+    height: 170px;
+    margin: auto;
+    /* box-shadow: 2px 2px 2px red; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+/* .info-card-holder .info-details {
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: aqua;
+    }
+
+.info-details a {
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+.info-details a .info-details-card {
+    background-color: #6E4ACF;
+    display: inline-block;
+    width: 12%;
+    margin: auto;
+    font-size: 15px;
+    color: black;
+    background-color: #BF64E7;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+ */
+
+ .info-details {
+    /* background-color: #6E4ACF; */
+    width: 50%;
+    height: 20px;
+    margin: auto;
+    padding-top: 8px;
+    }
+
+.info-details > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.info-icons {
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    /* background-color: #6E4ACF; */
+    margin-top: 30px;
+    }
+
+.info-icons > a {
+    margin-left: 30px;
+    }
+
+.email-link {
+    width: 20%;
+    height: 20px;
+    margin: auto;
+    }
+
+.email-link > a{
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+.copyright {
+    text-align: center;
+    color: #000000;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+/* END FOR INFO SECTION STYLING */
